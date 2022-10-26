@@ -1,0 +1,178 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+.img{
+    /* background-image: url("https://ilizone.iul.ac.in/index_files/Administrative_Block_1_30.jpg"); */
+    /* background-image:url("headerimg.jpg"); */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./headerimg.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    font-family: 'Alkalami', serif;
+    font-size: 1.5vw;
+    /* filter: blur(1.5px); */
+   
+}
+
+nav{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    background-color: purple;
+    /* color: white; */
+}
+.centerint{
+    /* position: relative; */
+    color: purple;
+    /* top: 20vh;
+    left: 65vh; */
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2vw;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    /* border: 4px inset; */
+}
+.centerint:hover{
+    background-color: purple;
+    transition: 1s;
+}
+h1{
+    text-transform: uppercase;
+}
+
+li{
+    display: inline;
+    margin: 5vh ;
+    margin-left: 12vh;
+    color: white;
+}
+
+.navitem:hover{
+   color: aqua;
+}
+.navitem{
+    position: relative;
+    left: 80vh;
+    cursor: pointer;
+}
+.img{
+    margin-top: 0;
+}
+
+/* .img img{
+   width: 80%;
+} */
+.content h1{
+    position: relative;
+    right: 5vh;
+    top: 3vh;
+}
+.content{
+    position: relative;
+    left: 15%;
+    right: 50%;
+    margin: 3.5vh;
+    /* margin-bottom: 5px; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-family: 'Alkalami', serif;
+    /* box-shadow: 2px 2px 8px black; */
+}
+ .content p{
+    margin: 4vh;
+    margin-bottom: 2vh;
+    /* margin-left: 10vh; */
+    /* margin-right: 10vh; */
+    font-family: 'Alkalami', serif;
+} 
+.content2{
+   width: 69.9%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   /* right: 50%; */
+   left:32vh ;
+   box-shadow: 2px 2px 3px black;
+   font-family: 'Playfair Display', serif;
+}
+.content3{
+    margin: 7px;
+    width: 77%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Playfair Display', serif;
+ }
+ .ncard{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    width: 77%;
+    box-shadow: 2px 2px 3px black;
+ }
+.content2:hover{
+    width:69.99% ;
+}
+.img2{
+    margin: 3px;
+    padding: 3vh;
+    width: 40%;
+    height: 40%;
+}
+.para{
+    width: 50%;
+}
+  #btn{
+    width: 10%;
+    height: 10%;
+  }
+.timetable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 10%; */
+   /* border: 1px solid black; */
+}
+.timetable a{
+    padding: 3vh;
+    margin: 2vh;
+    border: 1px solid black;
+}
+.vedio{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6vh;
+}
+footer{
+    height: 10vh;
+    align-items: center;
+    background-color: purple;
+    color: white;
+}
