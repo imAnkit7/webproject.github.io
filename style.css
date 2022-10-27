@@ -149,6 +149,7 @@ h1{
     align-items: center;
     /* justify-content: center; */
     font-family: 'Playfair Display', serif;
+     box-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
  }
  .content3 img:hover{
     /* width: 41%; */
@@ -164,7 +165,7 @@ h1{
     position: relative;
     left: 12%;
     width: 77%;
-    box-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+/*     box-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
  }
 .content2:hover{
     width:69.99% ;
@@ -177,6 +178,7 @@ h1{
 }
 .para{
     width: 50%;
+    margin: 7px;
 }
   #btn{
     width: 10%;
